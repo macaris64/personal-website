@@ -1,12 +1,7 @@
-import React, {RefObject} from "react"
+import React from "react"
 import {IMain} from "../Models/Header"
 
 function Footer(props: IMain) {
-    const ref: RefObject<any> = React.createRef();
-
-    const smoothScroll = () => {
-        ref.current.scrollIntoView({behavior: 'smooth'})
-    }
 
     return (
         <section className="section pt-5 pb-0 mt-5">

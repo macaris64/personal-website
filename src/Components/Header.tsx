@@ -1,4 +1,4 @@
-import React, {RefObject} from "react"
+import React from "react"
 import {IMain} from "../Models/Header"
 
 function Header(props: IMain) {
