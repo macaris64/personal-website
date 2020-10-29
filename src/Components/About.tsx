@@ -19,7 +19,7 @@ function About(props: IMain) {
                                 <h6 className="sub-title text-light title-dark">I'm a Istanbul based <span
                                     className="simple-text-rotate text-primary">{props.occupation}</span>.</h6>
                                 <div className="mt-4">
-                                    <a href="javascript:void(0)" className="btn btn-pill btn-primary">Download Resume
+                                    <a href={process.env.PUBLIC_URL + 'images/hero.jpeg'} className="btn btn-pill btn-primary">Download Resume
                                         <i data-feather="download" className="fea icon-sm"/>
                                     </a>
                                 </div>
@@ -28,7 +28,7 @@ function About(props: IMain) {
                                         {props.social.map((item, i) => {
                                             return (
                                                 <li key={i} className="list-inline-item">
-                                                    <a href={item.url} target="_blank">
+                                                    <a href={item.url} target="_blank" rel="noreferrer">
                                                         <i className={item.className}/>
                                                     </a>
                                                 </li>
@@ -75,7 +75,7 @@ function About(props: IMain) {
                                                 <p className="timeline-subtitle mt-3 mb-0 text-muted">
                                                     OTT streaming media platform in Turkey and MENA. For more
                                                     information: <a href="https://www.blutv.com.tr"
-                                                                    target="_blank">BluTV</a>
+                                                                    target="_blank" rel="noreferrer">BluTV</a>
                                                 </p>
                                                 <p className="timeline-subtitle mt-3 mb-0 text-muted">
                                                     Develops and Maintains Customer Relationship Management, Content

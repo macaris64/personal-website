@@ -11,7 +11,7 @@ function Footer(props: IMain) {
                         {props.social.map((item, i) => {
                             return (
                                 <li key={i} className="list-inline-item">
-                                    <a href={item.url} target="_blank">
+                                    <a href={item.url} target="_blank" rel="noreferrer">
                                         <i className={item.className}/>
                                     </a>
                                 </li>
