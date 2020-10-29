@@ -1,0 +1,66 @@
+{
+  "main": {
+    "name": "Mehmet Acar",
+    "occupation": "Software Engineer",
+    "description": "I am a Istanbul based Software Engineer",
+    "contact_message": "I am currently available for freelance projects. I am very excited to work with you. You can contact me at any time.",
+    "contact_email_message": "You can contact me at any time.",
+    "email": "mehmet.acar.dev@gmail.com",
+    "city": "Istanbul",
+    "address": {
+      "district": "Besiktas",
+      "city": "Istanbul - Turkey",
+      "zip": "34353"
+    },
+    "website": "macaris64.github.io",
+    "resume_url": "macaris64.github.io/cv.pdf",
+    "social": [
+      {
+        "name": "Twitter",
+        "url": "https://twitter.com/lumgoo",
+        "className": "mdi mdi-twitter"
+      },
+      {
+        "name": "Linkedin",
+        "url": "https://www.linkedin.com/in/mehmetacar",
+        "className": "mdi mdi-linkedin"
+      },
+      {
+        "name": "Github",
+        "url": "https://github.com/macaris64",
+        "className": "mdi mdi-github-box"
+      }
+    ]
+  },
+  "resume": {
+    "work": [
+      {
+        "company": "Blutv, Istanbul - Turkey",
+        "title": "Software Engineer",
+        "years": "01 2020 - ",
+        "description": [
+          "OTT streaming media platform in Turkey and MENA. For more information: <a href=\"https://www.blutv.com.tr\" target=\"_blank\">BluTV</a>",
+          "Develops and Maintains Customer Relationship Management, Content Management, API Gateway, OAuth, Third Party Integrations, VoD Services"
+        ]
+      },
+      {
+        "company": "eloop Digital, Denizli - Turkey",
+        "title": "Software Developer",
+        "years": "05 2019 - 09 2019",
+        "description": [
+          "It is a digital agency that produces design and software projects for companies to develop their digital assets.",
+          "Web projects for Corporates"
+        ]
+      },
+      {
+        "company": "Pamukkale University, Denizli - Turkey",
+        "title": "Head of IT Society",
+        "years": "2018 - 2019",
+        "description": [
+          "We organized basic programming, algorithm, HTML, CSS, C# training for community members.",
+          "We organized trainings related to the lessons for our friends who have the exam."
+        ]
+      }
+    ]
+  }
+}
